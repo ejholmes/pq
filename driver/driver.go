@@ -1,11 +1,11 @@
-// Package driver registers the lib/pq driver for use with database/sql.
+// Package driver registers the ejholmes/pq driver for use with database/sql.
 package driver
 
 import (
 	"database/sql"
 	"database/sql/driver"
 
-	"github.com/lib/pq"
+	"github.com/ejholmes/pq"
 )
 
 type drv struct{}

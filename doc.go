@@ -5,7 +5,7 @@ In most cases clients will use the database/sql package instead of
 using this package directly. For example:
 
 	import (
-		_ "github.com/lib/pq"
+		_ "github.com/ejholmes/pq"
 		"database/sql"
 	)
 
@@ -199,7 +199,7 @@ for more information).  Note that the channel name will be truncated to 63
 bytes by the PostgreSQL server.
 
 You can find a complete, working example of Listener usage at
-http://godoc.org/github.com/lib/pq/listen_example.
+http://godoc.org/github.com/ejholmes/pq/listen_example.
 
 */
 package pq

@@ -17,7 +17,7 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/lib/pq/oid"
+	"github.com/ejholmes/pq/oid"
 )
 
 // Common error types

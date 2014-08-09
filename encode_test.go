@@ -1,7 +1,7 @@
 package pq
 
 import (
-	"github.com/lib/pq/oid"
+	"github.com/ejholmes/pq/oid"
 
 	"bytes"
 	"fmt"

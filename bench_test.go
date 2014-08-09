@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"database/sql"
 	"database/sql/driver"
-	"github.com/lib/pq/oid"
+	"github.com/ejholmes/pq/oid"
 	"io"
 	"math/rand"
 	"net"
